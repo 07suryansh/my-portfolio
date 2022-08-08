@@ -15,9 +15,9 @@ export default function Navbar() {
         </ul>
       </nav>
       <div className="conataine px-14 py-16">
-        <p><h2 className="text-4xl py-1">Hello, This is</h2></p>
-        <p><h2 className="text-4xl py-1"></h2></p>
-        <p><h1 className="text-7xl py-1">Suryansh Singh Bisen</h1></p>
+        <p><h2 className="text-4xl py-1.5 font-extralight">Hello, This is</h2></p>
+        <p><h1 className="text-7xl py-1.5 font-extralight">Suryansh Singh Bisen</h1></p>
+        <p><h2 className="text-4xl py-1.5 font-extralight">Web Developer & Graphic Designer</h2></p>
       </div>
     </div>
   );
