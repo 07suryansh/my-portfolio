@@ -14,7 +14,13 @@ export default function Home() {
             Web Developer & Graphic Designer
           </h2>
           <button
-            className="border-solid border-2 border-red-500 rounded-md py-2 px-4 mt-4 hover:bg-red-500 hover:text-white active:bg-red-600"
+            className="border-solid border-2
+             border-blue-500 rounded-md py-2 px-4 mt-4
+             hover:text-white
+        
+             active:bg-blue-900
+               transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-200 
+               "
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
@@ -28,7 +34,9 @@ export default function Home() {
           <img
             src={Me}
             alt=""
-            className="w-[30rem] rounded-full border-solid border-4 border-red-500 bg-red-200"
+            className="w-[30rem] rounded-full border-solid border-8 border-red-500 bg-red-200
+            transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:border-[10px] duration-200 hover:rounded-3xl
+            "
           />
         </div>
       </div>
