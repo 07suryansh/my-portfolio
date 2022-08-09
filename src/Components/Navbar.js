@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Me from '../Images/MySelfie.png'
 
 export default function Navbar() {
   return (
@@ -30,7 +31,7 @@ export default function Navbar() {
         </ul>
       </nav>
       <div className="conataine px-20 py-40 ">
-        <h2 className="text-4xl py-2 font-extralight ">Hello, This is</h2>
+        <h2 className="text-4xl py-2 font-extralight">Hello, This is</h2>
         <h1 className="text-7xl py-2 font-extralight">Suryansh Singh Bisen</h1>
         <h2 className="text-4xl py-4 font-extralight">
           Web Developer & Graphic Designer
@@ -45,6 +46,10 @@ export default function Navbar() {
         >
           Resume
         </button>
+        <div className="i-right">
+        <div className="i-bg"></div>
+        <img src={Me} alt="" className="i-img" />
+      </div>
       </div>
     </div>
   );
