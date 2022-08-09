@@ -5,8 +5,8 @@ export default function Home() {
   return (
    <>
         <div className="conataine py-40 flex">
-        <div className="container pl-10">
-          <h2 className="text-4xl py-2 font-extralight">Hello, This is</h2>
+        <div className="container pl-12">
+          <h2 className="text-4xl py-2 font-extralight">Namaste, This is</h2>
           <h1 className="text-7xl py-2 font-extralight">
             Suryansh Singh Bisen
           </h1>
@@ -35,7 +35,7 @@ export default function Home() {
             src={Me}
             alt=""
             className="w-[30rem] rounded-full border-solid border-8 border-red-500 bg-red-200
-            transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:border-[10px] duration-200 hover:rounded-3xl
+            transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:border-[14px] duration-200 hover:rounded-[4rem]
             "
           />
         </div>
