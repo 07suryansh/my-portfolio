@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
+  const navigate=useNavigate()
   return (
     <div className="">
       <nav className="font-sans text-lg flex ">
@@ -18,7 +20,7 @@ export default function Navbar() {
        <h2 className="text-4xl py-2 font-extralight">Hello, This is</h2>
        <h1 className="text-7xl py-2 font-extralight">Suryansh Singh Bisen</h1>
        <h2 className="text-4xl py-4 font-extralight">Web Developer & Graphic Designer</h2>
-      <button className="border-solid border-2 border-red-500 rounded-md py-2 px-4 mt-4 hover:bg-red-500 hover:text-white active:bg-red-600">Resume</button>
+      <button className="border-solid border-2 border-red-500 rounded-md py-2 px-4 mt-4 hover:bg-red-500 hover:text-white active:bg-red-600" onClick={()=>navigate("https://drive.google.com/file/d/1TQ1ObIeRttk_kCQzgkxZ2T5RjLSLMqlL/view?usp=sharing")}>Resume</button>
       </div>
     </div>
   );
