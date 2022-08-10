@@ -14,7 +14,7 @@ export default function About() {
           />
         </div>
         <div className="container">
-        <h1 className='text-4xl border-blue-500 border-b-4 pb-2'>About</h1>
+        <h1 className='text-4xl border-blue-500 border-b-4 pb-2 pt-2 hover:bg-blue-500'>About</h1>
         
         </div>
     </div>
