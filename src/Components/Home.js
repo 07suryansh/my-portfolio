@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Me from "../Images/MySelfie.png";
 
 export default function Home() {
