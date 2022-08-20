@@ -3,7 +3,7 @@ import Me from "../Images/MySelfie1.png";
 
 export default function About() {
   return (
-    <div className="container m-24 text-center flex">
+    <div className="container m-4 pl-28 pt-28 text-center flex">
       <div className="container drop-shadow-2xl">
         <img
           src={Me}
@@ -13,13 +13,18 @@ export default function About() {
             "
         />
       </div>
-      <div className="container">
+      <div className="container w-3/4">
         <h1 className="text-4xl border-blue-500 border-b-4 pb-2 pt-2">About</h1>
-        <p className="mt-8 font-sans">
-          <h1>This is Suryansh Singh Bisen</h1>I am pre-final year student at
-          National Institute of Technology Hamirpur. I am member of UI/UX in Google Developer Student Club NITH and Frontend and UI/UX team in App Team NITH.
-          
-        </p>
+        
+          <h1 className="text-xl text-left font-light font-sans mt-8 mb-0">This is Suryansh Singh Bisen</h1>
+          <p className="mt-2 font-sans font-light text-left leading-7">I am pre-final year student at
+          National Institute of Technology Hamirpur. I am member of UI/UX in
+          Google Developer Student Club NITH and Frontend and UI/UX team in App
+          Team NITH. I work in C++, Java, Javascript, ReactJs, HTML, Tailwind
+          CSS and Bootstrap. I have experience in Web development, Android
+          development and Graphic designing. Currently I am learning DSA.</p>
+          <p className="mt-2 font-sans font-light text-left leading-7">Apart from technical, I love to play cricket, football, chess etc. and I also like Drawing and solving rubiks cube.</p>
+        
       </div>
     </div>
   );
