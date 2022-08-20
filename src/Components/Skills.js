@@ -11,12 +11,13 @@ import tailwind from "../Images/Tailwind.png"
 import photoshop from "../Images/photoshop.png"
 import illustrator from "../Images/illustrator.png"
 import figma from "../Images/figma.png"
+import skills from "../Images/skills.png"
 
 export default function Skills() {
   return (
     <div>
       <div className="my-4">
-        <h1 className="text-4xl text-center p-2 mx-[30rem] mt-8 border-blue-500 border-b-4">
+        <h1 className="text-4xl text-center p-2 mx-[35rem] mt-8 border-blue-500 border-b-4">
           Skills
         </h1>
       </div>
@@ -46,11 +47,11 @@ export default function Skills() {
                         </div>
                         <div className="px-12">
                           <img src={html} alt="" className="w-[6rem]"/>
-                          <h1 className="text-center p-2">HTML</h1>
+                          <h1 className="text-center p-2">HTML5</h1>
                         </div>
                         <div className="px-12">
                           <img src={css} alt="" className="w-[6rem]"/>
-                          <h1 className="text-center p-2">CSS</h1>
+                          <h1 className="text-center p-2">CSS3</h1>
                         </div>
                         <div className="px-12">
                           <img src={tailwind} alt="" className="w-[6rem]"/>
@@ -60,7 +61,7 @@ export default function Skills() {
                 <div className="container m-4 flex flex-row">
                         <div className="px-12">
                           <img src={bootstrap} alt="" className="w-[6rem]"/>
-                          <h1 className="text-center p-2">Bootstrap</h1>
+                          <h1 className="text-center p-2 pt-6">Bootstrap</h1>
                         </div>
                         <div className="px-12">
                           <img src={photoshop} alt="" className="w-[6rem]"/>
@@ -71,7 +72,7 @@ export default function Skills() {
                           <h1 className="text-center p-2">Illustrator</h1>
                         </div>
                         <div className="px-12">
-                          <img src={figma} alt="" className="w-[6rem]"/>
+                          <img src={figma} alt="" className="w-[6rem] rounded-2xl"/>
                           <h1 className="text-center p-2">Figma</h1>
                         </div>
                 </div>

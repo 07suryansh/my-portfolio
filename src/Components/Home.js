@@ -41,7 +41,7 @@ const openInNewTab=url=>{
             src={Me}
             alt=""
             className="w-[30rem] rounded-full border-solid border-[12px] border-red-500 bg-red-200 drop-shadow-2xl
-            transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:border-[14px] duration-200 hover:rounded-[4rem]
+            transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:border-[14px] duration-200 hover:rounded-[8rem]
             "
           />
         </div>
