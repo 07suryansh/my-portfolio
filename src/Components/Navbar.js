@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import About from "./About";
 export default function Navbar() {
   return (
-    <div className="">
+    <div className="flex flex-auto">
       <nav className="font-sans text-lg flex ">
         <ul className="cursor-pointer flex ">
 
